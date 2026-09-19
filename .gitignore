@@ -1,0 +1,15 @@
+# the rendered grids: reproduce them with `make dataset`, or fetch the
+# release assets (see README, "Getting the data"). data/mini.h5 is tracked.
+data/*.h5
+!data/mini.h5
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.DS_Store

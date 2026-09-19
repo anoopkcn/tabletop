@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "tabletop: a complete factor grid in colour, depth and words"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - given-names: Anoop
+    family-names: Kaithalikunnel Chandran
+    email: anoopkcn@gmail.com
+version: "2.0.0"
+date-released: "2026-09-19"
+license: MIT
+repository-code: "https://github.com/anoopkcn/tabletop"
+keywords:
+  - disentanglement
+  - representation learning
+  - multimodal
+  - RGB-D
+  - synthetic dataset
+abstract: >-
+  One object on a table, seen by a colour camera and a depth camera from the
+  same viewpoint and described in words. Every state of a complete seven-factor
+  grid (shape, hue, size, rotation, position, light, table; 294,912 states) is
+  rendered once by a self-contained ray caster, so the dataset is reproducible
+  from its source alone. Two factors are periodic with a known period, two are
+  straight lines in the world, and three (hue, light, table colour) are absent
+  from the depth image by construction, which puts a known ceiling on what a
+  depth encoder can resolve. The nuisance is explicit and adjustable: camera
+  pitch and yaw jitter drawn independently per camera, and Gaussian pixel noise
+  on RGB. A nuisance-free twin of the grid is provided as a control.

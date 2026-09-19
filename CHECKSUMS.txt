@@ -1,0 +1,15 @@
+# sha256 of the file on disk, sha256 of its contents, name.
+#
+# The file digest verifies a download. The content digest is taken over the
+# arrays in row order and is what a re-render reproduces: HDF5 may lay out the
+# same data differently between library versions, so a re-rendered grid is
+# expected to match the second column and need not match the first.
+#
+#   python scripts/verify.py data/*.h5 --against CHECKSUMS.txt
+#   python scripts/verify.py data/mini.h5 --rerender 64
+#
+# file digest                                                      content digest                                                   name
+6abd6e2eb1a36bb48520f67a04fd63e377ca51d8d43d02081b027798b28d9cd3  5e5dbd1053f9fc2fc91a1127c27af4042fcc35d084956d93693dce09021f9d12  tabletop.h5
+63e77cc717456906c612180b1a6637e1ef259e697793ac097f6fa629cf66aff3  33dcd6742baebf7f73f3f4039f97ecfe84facf8af24187f9640eb27a10024d2b  tabletop_clean.h5
+7938ff511661a6e36d57d8ea7cd63a575ffd0e1127af75b002e4912df3432594  a4098e404f1e102da42287b3a8cacceb6831f2549a5f6ecea2493a7a6060881d  smoke.h5
+5a68d8854f65bb16e47835653d3a1a22bd443427ed2ea3867f4f8b15d0453369  8d248f4b8514daa4cc4051a9bcd91dde4ee8f26187f8c282336e7f080b86233f  mini.h5

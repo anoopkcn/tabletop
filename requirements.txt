@@ -1,0 +1,6 @@
+# the dataset itself: rendering a grid and reading one back
+numpy>=1.24
+h5py>=3.8
+
+# the README figures and `--preview` (pip install -e '.[figures]')
+pillow>=10.0
