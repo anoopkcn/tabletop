@@ -285,15 +285,6 @@ Version 2 fixes both. Nothing else published uses version 1.
 
 `CITATION.cff` carries the same metadata in a machine-readable form.
 
-## Where it came from
-
-The grid was built for a study of embedding arithmetic between frozen encoders
-sharing one space, where it replaced Shapes3D as the single dataset. It is
-published separately because the guarantees above are useful on their own —
-for disentanglement, for cross-modal retrieval, for probing what a depth
-encoder can and cannot represent, and as a controlled setting for measuring a
-residual instead of assuming one.
-
 ## License
 
 MIT, covering both the renderer and the data it generates. See `LICENSE`.
