@@ -275,7 +275,7 @@ Version 2 fixes both. Nothing else published uses version 1.
 
 ```bibtex
 @misc{tabletop2026,
-  author = {Kaithalikunnel Chandran, Anoop},
+  author = {K. Chandran, Anoop},
   title  = {tabletop: a complete factor grid in colour, depth and words},
   year   = {2026},
   url    = {https://github.com/anoopkcn/tabletop},
